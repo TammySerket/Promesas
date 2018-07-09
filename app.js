@@ -61,7 +61,7 @@ Promise.all([
     console.log("terminaron ambas animaciones");
     return Promise.all([
         animateImg(allImg[0], 0, 500, 3000),
-        animateImg(allImg[1], 0, 500, 5000)
+        animateImg(allImg[1], 200, 500, 5000)
     ]);   
 }).then(()=>{
     console.log("terminaron ambas animaciones");
